@@ -17,7 +17,7 @@ header {
     font-family: 'Times New Roman', Times, serif;
 
 }
-h2 {
+h2   {
     color: green;
     padding-right: 200px;
 }
@@ -32,37 +32,39 @@ body {
 
 }
 
-.one-main {
+main {
     background-image: url(https://cdn.pixabay.com/photo/2016/11/21/17/02/adventure-1846482_960_720.jpg  );
     background-repeat: no-repeat;
     height: 700px;
     background-size: 100%;
-
     width: 100%;
     text-align: center;
-    padding: 40px 4%;
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
 }
 
 h1 {
+
     padding-top: 200px;
     text-align: center;
+    color:whitesmoke
 }
 
-article {
- display: flex;
+section .main-subtitle {
+  color: whitesmoke;
 }
 
-article img {
-  width: 300px;
-  justify-content: space-between;
-  margin-left: 50px;
-  margin-right: 30px;
-  padding-left: 65px;
-  padding-top: 100px;
-  padding-bottom: 300px;
+.article {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-right: 20px;
+}
+
+.article img {
+    width: 300px;
 }
 .text {
    margin-top: 500px;
@@ -83,14 +85,144 @@ h3 {
    font-family: 'Courier New', Courier, monospace;
  }
 
-.paralax {
-  padding-bottom: 1000px;
-  background-color: #7FC8A9;
+
+ /*VIAGENS*/
+
+ .dicas-travel {
+    display: flex;
+    padding-left: 125px;
+    padding-top: 100px;
+ }
+
+.dicas-travel img {
+  width: 250px;
+
 
 }
 
-section img .miniword {
-  size: 10px;
+.text-travel {
+  padding-left: 80px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.text-travel h3 {
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+
+.text-travel button {
+  margin-top: 50px;
+}
+
+
+/*TRILHAA*/
+
+.dicas-trilha {
+  display: flex;
+  padding-left: 125px;
+  padding-top: 100px;
+}
+
+.dicas-trilha img {
+ width: 250px;
+}
+
+.text-trilha {
+  padding-left: 80px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.text-trilha h3 {
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+
+.text-trilha button {
+  margin-top: 50px;
+}
+
+/*PASSEIO*/
+
+.dicas-passeio {
+  display: flex;
+  padding-left: 125px;
+  padding-top: 100px;
+}
+
+.dicas-passeio img {
+  width: 250px;
+}
+
+.text-passeio {
+  padding-left: 80px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.text-passeio h3 {
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+
+.text-passeio button {
+  margin-top: 50px;
+}
+
+
+/*botão geral*/
+
+.button {
+  border-radius: 30px;
+  border-color: black;
+  background-color: #FECEAB;
+  width: 160px;
+  height: 30px;
+}
+
+/*footer*/
+
+footer {
+  color: black;
+  padding-bottom: 100px;
+  padding-top: 100px;
+
+}
+
+.contact {
+  padding-left: 300px;
+  padding-right: 100px;
+  margin-top: 100px;
+}
+
+footer img {
+  width: 200px;
+  height: 200px;
+}
+
+footer h2 {
+  padding-left: 200px;
+  padding-top: 250px;
+}
+
+footer p {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.contact p {
+  padding-top: 10px;
+}
+
+footer h3 {
+  padding-top: 150px;
+}
+
+footer {
+  display: flex;
+
+}
+
+.direitos {
+  padding-top: 50px;
+  padding-bottom: 25px;
 }
 
 
